@@ -1,7 +1,7 @@
 export default function Button({text, onClick}) {
     return (
-        <Button onClick={onClick}>
-            {text}
-        </Button>
+        <button onClick={onClick}>
+            {text || "Enviar"}
+        </button>
     )
 }
